@@ -66,7 +66,20 @@
 
 ################################################################################################
 
+from random import randint
 
-
+number = randint(1, 100);
+count = 1;
+while (1) :
+    guess = (int)(input("숫자를 입력하시오: "));
+    if(guess == number) :
+        print("축하합니다! 시도횟수 = %d" %(count)); break;
+    elif (guess < number) :
+        print("높음!");
+        count += 1;
+    elif (guess > number) :
+        print("낮음!");
+        count += 1;
+        
 
 
