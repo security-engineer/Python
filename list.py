@@ -66,18 +66,24 @@
 
 ################################################################################################
 
-from random import randint
+# from random import randint
 
-sum = 0;
-count = 0;
-print("종료하려면 음수를 입력하시오.")
-while (1) :
-    guess = (float)(input("성적을 입력하세요: "));
+# sum = 0;
+# count = 0;
+# print("종료하려면 음수를 입력하시오.")
+# while (1) :
+#     guess = (float)(input("성적을 입력하세요: "));
 
-    if(guess < 0) :
-        break;
+#     if(guess < 0) :
+#         break;
 
-    count += 1;
-    sum += guess
+#     count += 1;
+#     sum += guess
         
-print("성적의 평균은 %.2f 입니다." % (sum/count))
+# print("성적의 평균은 %.2f 입니다." % (sum/count))
+
+print(1)
+print(2, end = " ")
+print(3)
+print("4 5", end = " ")
+print(6)
