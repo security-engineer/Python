@@ -20,10 +20,10 @@
 
 # turtle.done()
 
-def say_hello (a) :
-    print("안녕, ", a);
+def get_sum (a,b) :
+    sum = 
 
-say_hello("철수")
+say_hello("철수","잘 지냈니!")
 
 # str = input("문자열을 입력하시오: ")
 # result = ""
