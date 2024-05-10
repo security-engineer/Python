@@ -20,17 +20,26 @@
 
 # turtle.done()
 
-def get_sum (a,b) :
-    sum = 
+# def get_sum (a,b) :
+#     sum = 
 
-say_hello("철수","잘 지냈니!")
+# say_hello("철수","잘 지냈니!")
 
-# str = input("문자열을 입력하시오: ")
-# result = ""
-
-# i=0
-# for c in str :
-#     if c not in 'aeiou' :
-#         result += c
+# str = input("문자열: ")
+# alpha_num = 0
+# digit_num = 0
+# space_num = 0
+# for i in str :
+#     if(i.isalpha()) :
+#         alpha_num += 1
+#     if(i.isdigit()) :
+#         digit_num += 1
+#     if(i.isspace()) :
+#         space_num += 1
         
-# print(result)
+# print(alpha_num, digit_num, space_num)
+
+def FtoC(F) :
+    return (F-32)*(5/9)
+    
+print(FtoC(100.0))
