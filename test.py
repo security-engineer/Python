@@ -39,7 +39,21 @@
         
 # print(alpha_num, digit_num, space_num)
 
-def FtoC(F) :
-    return (F-32)*(5/9)
+table = []
+
+def init(table):
+    for i in range(10):
+        for j in range(10):
+            if (i+j) % 2 == 1:
+                table[i][j] = 1
+                
     
-print(FtoC(100.0))
+
+for i in range(10):
+    table += [[0] * 10]
+
+init(table)
+
+for i in range(10):
+    print(table[i], end=" ")
+    print()
